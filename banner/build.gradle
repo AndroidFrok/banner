@@ -79,7 +79,7 @@ publishing {
         }
     }
     repositories {
-        maven {
+        /*maven {
             // 发布的位置，这里根据发布的版本区分了 SNAPSHOT 和最终版本两种情况
             def releasesRepoUrl = "https://s01.oss.sonatype.org/service/local/staging/deploy/maven2/"
             def snapshotsRepoUrl = "https://s01.oss.sonatype.org/content/repositories/snapshots/"
@@ -89,7 +89,7 @@ publishing {
                 username sonatypeUsername
                 password sonatypePassword
             }
-        }
+        }*/
     }
 }
 
